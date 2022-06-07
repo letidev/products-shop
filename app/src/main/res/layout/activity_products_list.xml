@@ -122,13 +122,13 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/tomatoes" />
+                            app:srcCompat="@drawable/carrots" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Tomatoes" />
+                            android:text="Carrots" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -159,13 +159,93 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/tomatoes" />
+                            app:srcCompat="@drawable/avocado" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Tomatoes" />
+                            android:text="Avocado" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="$2/piece" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/layout_bg"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        app:layout_column="1"
+                        app:layout_columnWeight="1"
+                        app:layout_gravity="fill"
+                        android:layout_marginRight="5dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/mango" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Mango" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="$5/kg" />
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Add to cart" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/layout_bg"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        app:layout_column="2"
+                        app:layout_columnWeight="1"
+                        app:layout_gravity="fill"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            app:srcCompat="@drawable/pineapple" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Pineapple" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -202,13 +282,13 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/tomatoes" />
+                            app:srcCompat="@drawable/strawberries" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Tomatoes" />
+                            android:text="Strawberries" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -239,13 +319,13 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/tomatoes" />
+                            app:srcCompat="@drawable/mushroom" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Tomatoes" />
+                            android:text="Mushrooms" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -282,93 +362,13 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/tomatoes" />
+                            app:srcCompat="@drawable/cherries" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Tomatoes" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:text="$5/kg" />
-
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="Add to cart" />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="@drawable/layout_bg"
-                        android:orientation="vertical"
-                        android:padding="10dp"
-                        app:layout_column="2"
-                        app:layout_columnWeight="1"
-                        app:layout_gravity="fill"
-                        android:layout_marginLeft="5dp"
-                        >
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_gravity="center"
-                            app:srcCompat="@drawable/tomatoes" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:text="Tomatoes" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:text="$5/kg" />
-
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:text="Add to cart" />
-                    </LinearLayout>
-                </TableRow>
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="10dp"
-                    >
-                    <LinearLayout
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="@drawable/layout_bg"
-                        android:orientation="vertical"
-                        android:padding="10dp"
-                        app:layout_column="1"
-                        app:layout_columnWeight="1"
-                        app:layout_gravity="fill"
-                        android:layout_marginRight="5dp"
-                        >
-
-                        <ImageView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_gravity="center"
-                            app:srcCompat="@drawable/tomatoes" />
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:text="Tomatoes" />
+                            android:text="Cherries" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -399,13 +399,13 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_gravity="center"
-                            app:srcCompat="@drawable/tomatoes" />
+                            app:srcCompat="@drawable/peaches" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center"
-                            android:text="Tomatoes" />
+                            android:text="Peaches" />
 
                         <TextView
                             android:layout_width="match_parent"
